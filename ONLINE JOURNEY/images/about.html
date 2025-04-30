@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Para sa tamang character encoding -->
+  <title>About Us | Cedrick & Janrey Personal Website</title> <!-- Title na lalabas sa browser tab -->
+
+  <!-- Link to external CSS file para sa sariling design -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Link to Bootstrap CSS para sa ready-made styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ======= Navbar Section ======= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <!-- Logo o brand name -->
+    <a class="navbar-brand" href="index.html">Cedrick & Janrey</a>
+
+    <!-- Button para sa mobile menu (hamburger menu) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto"> <!-- ms-auto para naka-align sa kanan -->
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li> <!-- Active page -->
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- ======= End Navbar Section ======= -->
+
+<!-- ======= About Us Section ======= -->
+<section class="about-section d-flex align-items-center text-center">
+  <div class="container text-dark">
+    <!-- Section Title -->
+    <h2 class="mb-4 animate-title">About Us</h2>
+
+    <!-- Section Description -->
+    <p class="lead animate-text">
+      We are Cedrick M. Sampaga and Janrey Ramirez, first-year students at the University of Eastern Pangasinan.
+      We are currently pursuing a degree in Bachelor of Science in Information Technology.
+      As passionate and dedicated students, we are committed to expanding our knowledge and skills in the field of technology.
+      Our journey has just begun, and we are excited to learn, grow, and create meaningful contributions in the online world.
+    </p>
+
+    <!-- Profiles ng bawat member -->
+    <div class="row mt-5">
+      <div class="col-md-6 animate-card">
+        <img src="profile.jpg" class="img-fluid rounded-circle mb-3" alt="Cedrick"> <!-- Profile picture ni Cedrick -->
+        <h4>Cedrick</h4>
+        <p>Web Developer</p> <!-- Role ni Cedrick -->
+      </div>
+
+      <div class="col-md-6 animate-card">
+        <img src="Janrey.jpg" class="img-fluid rounded-circle mb-3" alt="Janrey"> <!-- Profile picture ni Janrey -->
+        <h4>Janrey</h4>
+        <p>Web Designer</p> <!-- Role ni Janrey -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ======= End About Us Section ======= -->
+
+<!-- ======= Footer Section ======= -->
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <p>&copy; 2025 Cedrick & Janrey. All Rights Reserved.</p> <!-- Copyright -->
+  </div>
+</footer>
+<!-- ======= End Footer Section ======= -->
+
+<!-- ======= Bootstrap JS Bundle (includes Popper.js) ======= -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> <!-- Para gumana ang Bootstrap features -->
+</body>
+</html>

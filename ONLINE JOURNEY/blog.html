@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog | Cedrick & Janrey Personal Website</title>
+
+  <link rel="stylesheet" href="CSS/style.css"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Cedrick & Janrey</a> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="blog-section py-5"> 
+  <div class="container text-center"> 
+    <h2 class="section-title mb-4">Our Blog</h2>
+    <p class="section-subtitle lead">
+      Through our blog, we share our experiences, learnings, and insights as we grow in the field of Information Technology. Here are some topics we write about:
+    </p>
+
+    <div class="row mt-5"> 
+      <!-- Blog Post 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="blog-item animate-card"> 
+          <img src="images/Webdev.png" class="blog-img" alt="Website Development"> 
+          <h4 class="mt-3">Learning Web Development</h4> 
+          <p>We talk about our journey in building websites, the challenges we faced, and tips for beginners starting in HTML, CSS, and Bootstrap.</p> 
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWebDev">Read More</button> 
+          <div class="collapse mt-2" id="collapseWebDev"> 
+            <div class="card card-body">
+              Starting with basic tags in HTML and styling with CSS was both exciting and challenging for us. Little by little, we learned how to structure a web page and make it look attractive. Using Bootstrap made everything easier, especially when creating responsive designs. We are currently practicing by making personal and school websites.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4"> 
+        <div class="blog-item animate-card">
+          <img src="images/Uderstandinglogins.png" class="blog-img" alt="Login System">
+          <h4 class="mt-3">Understanding Login Systems</h4>
+          <p>We share simple tutorials and best practices in creating secure and functional login systems for small applications.</p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogin">Read More</button>
+          <div class="collapse mt-2" id="collapseLogin">
+            <div class="card card-body">
+              Building a login system helped us understand how databases work together with a user interface. We used MS Access and Visual Basic to create simple login forms. Our goal was to make a secure but easy-to-use system for school projects. It taught us the importance of validation and error handling in programming.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4"> 
+        <div class="blog-item animate-card">
+          <img src="images/computermaintenance.png" class="blog-img" alt="Computer Maintenance">
+          <h4 class="mt-3">Computer Maintenance Tips</h4>
+          <p>We provide basic guides and advice on how to take care of your computer systems, troubleshoot common problems, and keep them running smoothly.</p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMaintenance">Read More</button>
+          <div class="collapse mt-2" id="collapseMaintenance">
+            <div class="card card-body">
+              Regularly cleaning hardware, updating software, and removing unnecessary files are just a few tips we share. We also talk about the importance of antivirus protection and basic troubleshooting steps when a computer is running slow. Simple maintenance goes a long way in keeping computers working efficiently.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="mt-5 animate-text">
+      Our goal is to inspire and help other students and beginners by sharing what we learn every step of the way. Stay tuned for more updates and tech stories from our journey!
+    </p>
+
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <p>&copy; 2025 Cedrick & Janrey. All Rights Reserved.</p> 
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
